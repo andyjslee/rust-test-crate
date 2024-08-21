@@ -42,3 +42,9 @@ cargo check
 cargo test
 cargo package
 ```
+
+To publish
+
+```sh
+cargo publish
+```

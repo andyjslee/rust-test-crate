@@ -6,7 +6,7 @@ edition.workspace = true
 rust-version.workspace = true
 
 [dependencies]
-rust-test-crate-add = { path = "../rust-test-crate-add" }
-rust-test-crate-divide = { path = "../rust-test-crate-divide" }
-rust-test-crate-multiply = { path = "../rust-test-crate-multiply" }
+rust-test-crate-add = { path = "../rust-test-crate-add", version = "0.1.0" }
+rust-test-crate-divide = { path = "../rust-test-crate-divide", version = "0.1.0" }
+rust-test-crate-multiply = { path = "../rust-test-crate-multiply", version = "0.1.0" }
 clap = { version = "4.5.16", features = ["derive"] }
