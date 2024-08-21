@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-
+rust-test-crate --op [add,divide,multiply] --a [NUM] --b [NUM]
 ```
 
 ## Notes
