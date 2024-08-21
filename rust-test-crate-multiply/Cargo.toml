@@ -2,5 +2,9 @@
 name = "rust-test-crate-multiply"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
+authors = ["Andy Lee <andyjinseoklee@gmail.com>"]
+rust-version.workspace = true
+description = "Test rust package"
+homepage = "https://github.com/andyjslee/rust-test-crate"
+repository = "https://github.com/andyjslee/rust-test-crate"
+documentation = "https://docs.rs/rust-test-crate-multiply"

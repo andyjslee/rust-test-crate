@@ -34,3 +34,11 @@ To run globally
 ```sh
 rust-test-crate --op [add,divide,multiply] --a [NUM] --b [NUM]
 ```
+
+Before publishing to crates.io
+
+```sh
+cargo check
+cargo test
+cargo package
+```
