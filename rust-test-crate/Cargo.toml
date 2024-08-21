@@ -1,0 +1,12 @@
+[package]
+name = "rust-test-crate"
+version = "0.1.0"
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+rust-test-crate-add = { path = "../rust-test-crate-add" }
+rust-test-crate-divide = { path = "../rust-test-crate-divide" }
+rust-test-crate-multiply = { path = "../rust-test-crate-multiply" }
+clap = { version = "4.5.16", features = ["derive"] }
